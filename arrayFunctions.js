@@ -130,7 +130,7 @@ function secondHalfOfArrayIfItIsEven(fruits) {
 //* shout.indexof("!") = -1 -- it means that "!" is the last element in the array
 
 function youGottaCalmDown(shout) {
-  const searchTerm = shout.indexof("!");
+  const searchTerm = shout.indexOf("!");
 
   if (searchTerm == -1) {
     return shout;
@@ -140,3 +140,5 @@ function youGottaCalmDown(shout) {
 }
 
 console.log(youGottaCalmDown("HI!!!!!!!!!!"));
+console.log(youGottaCalmDown("Taylor Schwifting!!!!!!!!!!!"));
+console.log(youGottaCalmDown("Hellooooo"));
